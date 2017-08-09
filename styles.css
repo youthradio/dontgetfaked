@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("font/ProximaNovaRegular.otf");
+}
+
+/*regular*/
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('font/webfontkit-20170510-144131/mark_simonson_-_proxima_nova_regular-webfont.woff2') format('woff2'),
+         url('font/webfontkit-20170510-144131/mark_simonson_-_proxima_nova_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*bold*/
+@font-face {
+    font-family: 'proxima_nova_scosfextrabold';
+    src: url('font/ webfontkit-20170515-115548/mark_simonson_-_proxima_nova_scosf_extrabold-webfont.woff2') format('woff2'),
+         url('font/ webfontkit-20170515-115548/mark_simonson_-_proxima_nova_scosf_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body p {
+    font-size: 130%;
+    text-align: center;
+}
+
+#resultButton {
+    top: -46px;
+    position: relative;
+}
+
+#pinkintro {
+    background-color: #edadeb; 
+    padding-top:3%; 
+    padding-bottom:2%;
+}
+.icon {
+    height: 60px;
+    width: auto;
+}
+.hidden {
+    visibility: hidden;
+}
+
+.rightans .wrongans {
+    padding-bottom: 2%; 
+}
+
+#headertitle {
+    color: #3Ec0BE;
+    font-size: 28px;
+}
+
+#bsimage {
+    height: 50%;
+    width: auto;
+}
+
+.questionImage {
+    width: 70%;
+    height: auto;
+}
+
+.icon {
+    height: 45px;
+    width: auto;
+}
+
+.top_row {
+    padding: 10px;
+}
+
+
+h1 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.text {
+    font-size: 150%;
+}
+
+.padding{
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+
+.button, .btn, .btn-primary {
+    border-color:#e447d0; 
+    background-color:#e447d0; 
+}
+
+.nextquestionbuttonposition {
+    position: relative;
+    position:relative; 
+    left:35%;
+}
+
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #c81eb1;
+    border-color:#e447d0;  /*set the color you want here*/
+}
+
+
+#credits {
+    padding-bottom:25px; 
+    padding-top:15px; 
+    background-color:#ECAEE9; 
+}
+
+#yr_icon {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+#violetbackground {
+    background-color: #cfcdf4; 
+    padding-top: 1%;
+}
+
+#knowthesigns {
+    width:130%; 
+    position:relative; 
+    right:15%; 
+    height:auto;
+}
+
+.hidden {
+    display: none;
+} 
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    width: 100%;
+    height: 0;
+}
+
+#learn_more {
+    padding-bottom:25px;
+    padding-top:5px; 
+    background-color:#F1F1D0; 
+    height:100vh; 
+}
+
+#quizintro {
+    background-color:#ade8ed; 
+    height:100vh; 
+    width:auto;
+}
+
+#pooppaper {
+    width:230%; 
+    position:relative; 
+    right:60%;  
+    height: auto;
+}
+
+.videowrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
