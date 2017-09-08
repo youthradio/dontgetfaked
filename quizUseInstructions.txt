@@ -1,0 +1,64 @@
+This quiz is designed to be easily adapted for new content.  Images, questions, and answers can be easily swapped out.  You can find the quiz by itself - without the other fake news markup or code -  in justquiz.html.  
+
+
+This quiz is built with jQuery and the CSS is inline.  There are three sections to the quiz:  
+- Question/answer 
+- Immediate result
+- Final score 
+
+The dictionaries called "questionElements" and "scoreResult" are the only components that should be changed.  
+
+A dictionary keeps track of keys and corresponding values. 
+
+The dictionary "questionElements" contains all of the data relating to the  keys in the dictionary are the questions.  THey are named "question[number]" where "[number]" is a value starting at 1 and incrementing by 
+one.  The questions are shown in sequential order.  There is technically no limit to the number of questions you can add.  
+
+The values for each key must be contained in parentheses to create a string value. 
+
+Each key in the questionElements dictionary has the following values:
+
+* questionImageSource:  
+    The file path for the image to be shown accompanying the question
+
+* questionImageTarget:  
+    The website that opens in a second tab when you click on the image
+
+* questionCopy:  
+    The question itself. 
+
+* radioButtonContent: 
+    -The options that the user selects from.   The radio button tags are on a single line, and each option has a set of tags.   There is no option for partial credit in this version of the quiz.
+
+    -&nbsp exists for formatting.  It's a way to add spaces to the HTML.  Don't touch that. 
+
+    - <br> is the break tag.  Essential for formatting.  Don't touch that part. 
+
+    - You do not need a closing tag at the end of the string because it is being inserted into a div. 
+
+    - Since the string is enclosed in double quotes, the inner values need to be enclosed in single quotes
+
+    - There are only two parts of the radio button markup value that you need to touch. You can have more options for answers and each question can have a different number of options.
+        1. The correct answer should have a value of 'correct' and the other options should have a value of 'incorrect.' The string is enclosed inside of a double quotation, so each of the options should be inside of single quotations. 
+        2. Delete the old content to replace with new content
+
+    "<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;The font looks too formal<br><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;No link to an original post<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;The date<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;The cheesy photo",
+
+*  resultGifCorrectSrc:
+    - This is the filepath to the gif that is shows when the user answers correctly
+
+* resultGifIncorrectSrc: 
+    - This is the filepath to the gif that is shows when the user answers correctly
+
+* postQuestionCopy:
+    - This is the copy that gets shown after the question below the result gif
+
+
+The scoreResult dictionary has all of the values which relate to the final results screen.  The keys called score[number]
+ indicate the various score values.  There are only five possible values for this; the score dictionary cannot be expanded to include additional keys without refactoring the scoring functionality.  The rubric for scoring is coded based on quarters - 0, 25%, 50%, 75%, 100%.   
+
+* scoreImage: this is the filepath to the image that is shown along with the resulting score 
+
+
+* scoreText: this is the content that is displayed along with the resulting score
+
+

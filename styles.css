@@ -28,12 +28,16 @@ body p {
     text-align: center;
 }
 
-
-
-body {
-
+#resultButton {
+    top: -46px;
+    position: relative;
 }
 
+#pinkintro {
+    background-color: #edadeb; 
+    padding-top:3%; 
+    padding-bottom:2%;
+}
 .icon {
     height: 60px;
     width: auto;
@@ -41,17 +45,6 @@ body {
 .hidden {
     visibility: hidden;
 }
-
-/*.answerexplain {
-    position: relative;
-    right: 11%;
-}*/
-
-/*.explanation{
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 15px;
-}*/
 
 .rightans .wrongans {
     padding-bottom: 2%; 
@@ -62,33 +55,15 @@ body {
     font-size: 28px;
 }
 
-/*#quizheading {
-    font-family: Montserrat;
-    font-weight: 800;
-    font-size: 33px;
-}*/
-
-/*#quizsubheading {
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-}*/
-
-/*.description {
-    font-family: Montserrat;
-    font-size: 15px;
-}*/
-
 #bsimage {
     height: 50%;
     width: auto;
 }
 
-
-/*#flagheader {
-    font-weight: 800;
-    font-size: 33px;
-    font-family: Montserrat;
-}*/
+.questionImage {
+    width: 70%;
+    height: auto;
+}
 
 .icon {
     height: 45px;
@@ -110,70 +85,52 @@ h1 {
     font-size: 150%;
 }
 
-.section {
-    background-color: white;
-}
-
-.box {
-    background-color: blue;
-    text-align: center;
-}
-
 .padding{
     padding-top: 25px;
     padding-bottom: 75px;
 }
 
-/*.pageheader {
-    background-color: rgba(50,50,255,0.7);
-}*/
 
-
-./*flags {
-    height: 90%;
-    width: 90%;
-    border-radius: 100%;
-}
-*/
-/*.flagtitles {
-    font-size: 18px;
-}*/
-
-/*.textleft {
-    font-size: 12px;
-
+.button, .btn, .btn-primary {
+    border-color:#e447d0; 
+    background-color:#e447d0; 
 }
 
-#lies {
-    color: #FF0400;
-}
-
-#kinda {
-    color: #ff862f;;
-}
-
-#trust {
-    color: #039130;
-}*/
-/*#top_row_icons {
+.nextquestionbuttonposition {
     position: relative;
-    left: 65%;
-    padding-top: 1%;
+    position:relative; 
+    left:35%;
+}
 
-}*/
 
-body p{
-    font-size: 130%;
-    text-align: center;
-    color: red;
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #c81eb1;
+    border-color:#e447d0;  /*set the color you want here*/
+}
+
+
+#credits {
+    padding-bottom:25px; 
+    padding-top:15px; 
+    background-color:#ECAEE9; 
 }
 
 #yr_icon {
     padding-top: 1%;
     padding-left: 1%;
 }
-.pad {
-    padding:15px;
+#violetbackground {
+    background-color: #cfcdf4; 
+    padding-top: 1%;
+}
+
+#knowthesigns {
+    width:130%; 
+    position:relative; 
+    right:15%; 
+    height:auto;
 }
 
 .hidden {
@@ -185,6 +142,26 @@ body p{
     padding-top: 25px;
     width: 100%;
     height: 0;
+}
+
+#learn_more {
+    padding-bottom:25px;
+    padding-top:5px; 
+    background-color:#F1F1D0; 
+    height:100vh; 
+}
+
+#quizintro {
+    background-color:#ade8ed; 
+    height:100vh; 
+    width:auto;
+}
+
+#pooppaper {
+    width:230%; 
+    position:relative; 
+    right:60%;  
+    height: auto;
 }
 
 .videowrapper iframe{

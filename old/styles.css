@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("font/ProximaNovaRegular.otf");
+}
+
+/*regular*/
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('font/webfontkit-20170510-144131/mark_simonson_-_proxima_nova_regular-webfont.woff2') format('woff2'),
+         url('font/webfontkit-20170510-144131/mark_simonson_-_proxima_nova_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*bold*/
+@font-face {
+    font-family: 'proxima_nova_scosfextrabold';
+    src: url('font/ webfontkit-20170515-115548/mark_simonson_-_proxima_nova_scosf_extrabold-webfont.woff2') format('woff2'),
+         url('font/ webfontkit-20170515-115548/mark_simonson_-_proxima_nova_scosf_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body p {
+    font-size: 130%;
+    text-align: center;
+}
+
+
+
+body {
+
+}
+
+.icon {
+    height: 60px;
+    width: auto;
+}
+.hidden {
+    visibility: hidden;
+}
+
+/*.answerexplain {
+    position: relative;
+    right: 11%;
+}*/
+
+/*.explanation{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+}*/
+
+.rightans .wrongans {
+    padding-bottom: 2%; 
+}
+
+#headertitle {
+    color: #3Ec0BE;
+    font-size: 28px;
+}
+
+/*#quizheading {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 33px;
+}*/
+
+/*#quizsubheading {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}*/
+
+/*.description {
+    font-family: Montserrat;
+    font-size: 15px;
+}*/
+
+#bsimage {
+    height: 50%;
+    width: auto;
+}
+
+
+/*#flagheader {
+    font-weight: 800;
+    font-size: 33px;
+    font-family: Montserrat;
+}*/
+
+.icon {
+    height: 45px;
+    width: auto;
+}
+
+.top_row {
+    padding: 10px;
+}
+
+
+h1 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.text {
+    font-size: 150%;
+}
+
+.section {
+    background-color: white;
+}
+
+.box {
+    background-color: blue;
+    text-align: center;
+}
+
+.padding{
+    padding-top: 25px;
+    padding-bottom: 75px;
+}
+
+/*.pageheader {
+    background-color: rgba(50,50,255,0.7);
+}*/
+
+
+./*flags {
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+}
+*/
+/*.flagtitles {
+    font-size: 18px;
+}*/
+
+/*.textleft {
+    font-size: 12px;
+
+}
+
+#lies {
+    color: #FF0400;
+}
+
+#kinda {
+    color: #ff862f;;
+}
+
+#trust {
+    color: #039130;
+}*/
+/*#top_row_icons {
+    position: relative;
+    left: 65%;
+    padding-top: 1%;
+
+}*/
+
+body p{
+    font-size: 130%;
+    text-align: center;
+    color: red;
+}
+
+#yr_icon {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.pad {
+    padding:15px;
+}
+
+.hidden {
+    display: none;
+} 
+.videowrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    width: 100%;
+    height: 0;
+}
+
+.videowrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
