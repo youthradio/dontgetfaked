@@ -23,10 +23,6 @@ $(document).ready(function() {
             postQuestionCopy:"Let's say my friend has a pimple, but I tell the whole school she has herpes, and she doesn't get a date to prom. That's like this article, except what's at stake is who leads America. Don't be fooled by alarming, speculative claims.",
         },
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
         question3:{
             questionImageSource:"img/Propublica_news.png",
             questionImageTarget:"https://www.propublica.org/article/common-roadside-drug-test-routinely-produces-false-positives",
@@ -37,10 +33,6 @@ $(document).ready(function() {
             postQuestionCopy:"Bring a skeptical eye to everything you read, but when you see a story like this, you get to drop the cynicism and accept the facts. Maybe even share and act on what you learn.",
         },
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
         question4:{  
             questionImageSource:"img/NYtimes_draft.png",
             questionImageTarget: "https://www.nytimes.com/2016/06/15/us/politics/congress-women-military-draft.html",
@@ -49,7 +41,6 @@ $(document).ready(function() {
             resultGifCorrectSrc:"img/right4.gif",
             resultGifIncorrectSrc:"img/wrong4.gif",
             postQuestionCopy:"This story was perfectly accurate--at the time it was published. But it went viral 10 months later, when people started sharing it like crazy long after the provision was killed. Timing is everything, so check your dates!",
-<<<<<<< HEAD
         },
 
         question5:{
@@ -83,10 +74,6 @@ $(document).ready(function() {
         }
 
     } 
-=======
-        }
-    }
->>>>>>> origin/master
     var scoreResult= {
         score0:{
             scoreImage:"img/alternativefacts.png",
@@ -126,10 +113,6 @@ $(document).ready(function() {
     }
     function populateQuestion(){
         incrementCount()
-<<<<<<< HEAD
-=======
-        console.log(count)
->>>>>>> origin/master
         var curr_question =  "questionElements.question" + count
         var currentQuestionImageString = "" + curr_question + ".questionImageSource"
         var currentQuestionImage = eval(currentQuestionImageString)
@@ -158,7 +141,6 @@ $(document).ready(function() {
         }
     }
     function populateResult(counter, result){
-<<<<<<< HEAD
         var curr_question =  "questionElements.question" + counter;
         var currentExplanationString = curr_question + ".postQuestionCopy";
         var currentExplanation = eval(currentExplanationString);
@@ -169,18 +151,6 @@ $(document).ready(function() {
         var expText;
         var currGif; 
         var resultText; 
-=======
-        var curr_question =  "questionElements.question" + counter
-        var currentExplanationString = curr_question + ".postQuestionCopy"
-        var currentExplanation = eval(currentExplanationString)
-        var gifCorrectAnswerString =  curr_question + ".resultGifCorrectSrc"
-        var gifIncorrectAnswerString = curr_question +".resultGifIncorrectSrc"
-        var gifCorrectAnswer =  eval(gifCorrectAnswerString)
-        var gifIncorrectAnswer = eval(gifIncorrectAnswerString)
-        var expText  
-        var currGif 
-        var resultText 
->>>>>>> origin/master
         if(result == "correct"){
             currGif = gifCorrectAnswer
             expText =  resultFeedback.correctAns + currentExplanation
@@ -220,10 +190,6 @@ $(document).ready(function() {
     $("#submitButton").click(function(){
         console.log("submit")
         var currQuizValue = $("#quizRadioButtons input[name='question']:checked").val()
-<<<<<<< HEAD
-=======
-        console.log(currQuizValue)
->>>>>>> origin/master
         if(currQuizValue){
             populateResult(count, currQuizValue)
             $("#questionContainer").hide()
@@ -257,7 +223,6 @@ $(document).ready(function() {
         }    
     });
     function populateScore(s){
-<<<<<<< HEAD
         var answerExplanationCopy;
         var resultImgPng;
         var percentage = s/totalQuestions * 100;
@@ -288,53 +253,17 @@ $(document).ready(function() {
             resultImgPng = scoreResult.score3.scoreImage
             answerExplanationCopy = scoreResult.score3.scoreText
             $("#resultImg").attr("src", resultImgPng)
-=======
-        console.log("populating score")
-        var answerExplanationCopy
-        var resultImgPng
-        if(s==0){
-            console.log("zero")
-            resultImgPng = scoreResult.score0.scoreImage
-            answerExplanationCopy = scoreResult.score0.scoreText
-            $("#resultImg").attr("src", ""+resultImgPng)
-            $("#answerExplanationScore").text(answerExplanationCopy)
-            console.log(scoreResult.score0.scoreText)
-        }
-        if(s==1){
-            console.log("one")
-            resultImgPng = scoreResult.score1.scoreImage
-            answerExplanationCopy = scoreResult.score1.scoreText
-            $("#resultImg").attr("src", ""+resultImgPng)
-            $("#answerExplanationScore").text(answerExplanationCopy)
-        }
-        if(s==2){
-            console.log("two")
-            resultImgPng = scoreResult.score2.scoreImage
-            answerExplanationCopy = scoreResult.score2.scoreText
-            $("#resultImg").attr("src", ""+resultImgPng)
-            $("#answerExplanationScore").text(answerExplanationCopy)
-        }
-        if(s>2){
-            resultImgPng = scoreResult.score3.scoreImage
-            answerExplanationCopy = scoreResult.score2.scoreText
-            $("#resultImg").attr("src", ""+resultImgPng)
->>>>>>> origin/master
             $("#answerExplanationScore").text(answerExplanationCopy)
         } 
     }
 
     $("#resultButton").click(function(){
-<<<<<<< HEAD
-=======
-        console.log("result button!")
->>>>>>> origin/master
         $("#nextbutton, #resultDiv, #questionContainer, #submit").hide();
         $("#scoreDiv").show();
         populateScore(score)
         $("#resultButton").hide()
         $("#score").append("You got " + score + " correct out of&nbsp"+ totalQuestions +"&nbspquestions.</span>");
         $("#scoreDiv").get(0).scrollIntoView();
-<<<<<<< HEAD
         $("#learn_more").show(); 
         $("#credits").show();
 
@@ -345,17 +274,6 @@ $(document).ready(function() {
         i=0;
         resetCount()
         $("#score").empty();
-=======
-        $("#learn_more").show() 
-        $("#credits").show()
-    });
-
-    $("#retakeButton").click(function(){
-        console.log("RETAKE BUTTON")
-        score = 0;
-        i=0;
-        resetCount()
->>>>>>> origin/master
         $("#scoreDiv").hide()
         $("#learn_more, #credits").hide()
         // $("#questionContainer").empty()
@@ -368,7 +286,6 @@ $(document).ready(function() {
  
     // this needs to hide the make me smarter button 
     // back to quiz in v2
-<<<<<<< HEAD
     $("#backtoquiz").click(function(){
         score = 0;
         i=0;
@@ -392,24 +309,4 @@ $(document).ready(function() {
         $("#credits").show()
         goToByScroll("#learn_more");  
     })
-=======
-    // $("#backtoquiz").click(function(){
-    //     score = 0;
-    //     count =0;
-    //     $("#quiz").removeClass("hidden")
-    //     $("quiz, #question1, #submit").show()
-    //     $(".wrongans, .rightans, .quizresult, .resultdiv, #learn_more, #credits").hide()
-    //     $("#retake").remove()
-    //     $("#results").empty()
-    //     $("#resultdiv").hide()
-    //     $("#quiz").get(0).scrollIntoView();
-    // })
-// smart button reqs more materials 
-    // $("#smartbutton").click(function(){
-    //     $("#resultdiv").hide()
-    //     $("#learn_more").show()
-    //     $("#credits").show()
-    //     goToByScroll("#learn_more");  
-    // })
->>>>>>> origin/master
 });
