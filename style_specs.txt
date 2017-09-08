@@ -1,0 +1,35 @@
+
+
+TITLE
+
+Don't get faked (don't get color = #000, faked color =#3ec0be)
+fontsize = 33
+proxima nova extrabold
+
+
+VIDEO
+DONE.
+Chaz has updated the video to have the new thumbnail (done)
+
+BACKGROUND COLORS
+pink = #edadeb
+purple = cfcdf4
+blue/teal = ade8ed
+yellow = f1f1cf
+
+SIGNS BOX 
+(the image with the green/yellow/red images)
+(We can use the image for now, but we should build our own to maximize responsiveness later.)
+
+(if you want to build it vs. inserting it as one big .png)
+yellow background #f9f6e1
+stroke 6cb9f5 (18px)
+
+ELEMENTS
+button color
+hot pink = ff2ecb
+
+BODY TEXT
+proxima nova regular
+#000
+center aligned
