@@ -84,12 +84,12 @@ $(document).ready(function() {
             scoreText:"You're not completely clueless, but you've got to try harder to keep it real. Look up your links, find some new news sources and think before you hit that share button!",
         },
         score2:{
-            scoreImage:"img/rumorhasit.png",
-            scoreText:"You're not completely clueless, but you've to try harder to keep it real. Look up your links, find some new news sources and think before you hit that share button!",
+            scoreImage:"img/truthiness.png",
+            scoreText:"Not too bad -- your fake news sense is about as accurate as a coin flip. If you want to better your odds, consider giving those links a second look before you share. Otherwise, you’ll get caught up in the online rumor mill.",
         },
         score3:{
             scoreImage:"img/legitnews.png",
-            scoreText:"You're not completely clueless, but you've got to try harder to keep it real. Look up your links, find some new news sources and think before you hit that share button!",
+            scoreText:"Well done -- more often than not, you can tell the truth from the BS.",
         },   
         score4:{
             scoreImage:"img/legitnews.png",
@@ -231,7 +231,7 @@ $(document).ready(function() {
             console.log("26")
             resultImgPng = scoreResult.score0.scoreImage
             answerExplanationCopy = scoreResult.score0.scoreText
-            $("#resultImg").attr("src", "img/alternativefacts.png")
+            $("#resultImg").attr("src", resultImgPng)
             $("#answerExplanationScore").text(answerExplanationCopy)
         }
         else if(percentage < 51){
