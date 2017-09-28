@@ -10,17 +10,17 @@ $(document).ready(function() {
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;The font looks too formal<br><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;No link to an original post<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;The date<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;The cheesy photo",
             resultGifCorrectSrc:"img/right1.gif",
             resultGifIncorrectSrc:"img/wrong1.gif",
-            postQuestionCopy:"Anyone can photoshop words on top of an image! Memes like this can originate from satire sites, hacked accounts, or tabloids that make stuff up so you grab them while paying for toilet paper. Check your sources before you share!",                  
+            postQuestionCopy:"The font, date, and photo aren’t the problem--it’s the lack of a source! Anyone can photoshop words on top of an image. Memes like this can originate from satire sites, hacked accounts, or tabloids that make stuff up so you grab them while paying for toilet paper. Beware!",                  
         },
         question2:{
             questionImageSource:"img/Hillary_Breitbart.png",
             // questionImageTarget:,
             questionImageTarget:"http://www.breitbart.com/big-government/2016/09/15/doctors-see-inconsistencies-hillary-clintons-bacterial-pneumonia-diagnosis/",
             questionCopy:"This article questions whether Hillary Clinton really had pneumonia when she ran for president. What makes you think twice about this reporting?",
-            radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;The source, Breitbart, is a far-right media organization with a track record of targeting Clinton.<br><input name='question' type='radio' value='incorrect'><strong>B</strong>&nbsp;In the picture used, Hillary looks totally healthy.<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;Without evidence, the author hints that Clinton has a super-serious degenerative disease instead.<br><input name='question' type='radio' value='correct'><strong>D</strong>&nbsp;A and C",
+            radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;Everything you read about Hillary Clinton in the media is false.<br><input name='question' type='radio' value='incorrect'><strong>B</strong>&nbsp;In the picture used, Hillary looks totally healthy.<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;The article only includes an excerpt from the official report from Clinton’s doctor.<br><input name='question' type='radio' value='correct'><strong>D</strong>&nbsp;Without evidence, the author hints that Clinton has a super-serious degenerative disease.",
             resultGifCorrectSrc:"img/right2.gif",
             resultGifIncorrectSrc: "img/wrong2.gif",
-            postQuestionCopy:"Let's say my friend has a pimple, but I tell the whole school she has herpes, and she doesn't get a date to prom. That's like this article, except what's at stake is who leads America. Don't be fooled by alarming, speculative claims.",
+            postQuestionCopy:"There are lots of issues with this article, but the biggest one is the author’s use of alarming, speculative claims. Let’s say my friend has a pimple, but I tell the whole school she has herpes, and she doesn’t get a date to prom. That’s like this article, except what was at stake is who leads America. ",
         },
 
         question3:{
@@ -30,7 +30,7 @@ $(document).ready(function() {
             radioButtonContent:'<input name="question" type="radio" value="incorrect"><strong>A</strong>&nbsp;The article cites technical scientific terms a person wouldn\'t know unless they\'d done their research.<br><input name="question" type="radio" value="incorrect"><strong>B</strong>&nbsp;The publication is non-profit and therefore does not pander to special interests.<br><input name="question" type="radio" value="incorrect"><strong>C</strong>&nbsp;The author is well known.<br><input name="question" type="radio" value="correct"><strong>D</strong>&nbsp;The reporter uses an unbiased voice, cites multiple named sources, and includes reliable hyperlinks.',
             resultGifCorrectSrc:"img/right3.gif",
             resultGifIncorrectSrc:"img/wrong3.gif",
-            postQuestionCopy:"Bring a skeptical eye to everything you read, but when you see a story like this, you get to drop the cynicism and accept the facts. Maybe even share and act on what you learn.",
+            postQuestionCopy:"Even well-known, tech-savvy reporters at non-profits can get the story wrong. But you know you can trust this one because the sources are right there, offered in an unbiased way. Now that you know you didn't get faked, go ahead and share!",
         },
 
         question4:{  
