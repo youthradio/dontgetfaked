@@ -50,7 +50,7 @@ $(document).ready(function() {
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;It's true because there are screenshots that corroborate the claims made in the article.<br><input name='question' type='radio' value='incorrect'><strong>B</strong>&nbsp;It's true because the story sounds plausible and doesn't contradict any known facts.<br><input name='question' type='radio' value='correct'><strong>C</strong>&nbsp;It's false because the proof cited in the article is not conclusive.<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;It's false because the tone of the article is biased.",
             resultGifCorrectSrc:"img/right1.gif",
             resultGifIncorrectSrc:"img/wrong1.gif",
-            postQuestionCopy:"Bring a skeptical eye to everything you read, but when you see a story like this, you get to drop the cynicism and accept the facts. Maybe even share and act on what you learn.",
+            postQuestionCopy:"There’s nothing that connects the Craigslist ad referenced in the article to the Charlottesville protests. While it’s not 100% impossible that this claim is true, the screenshots are not proof of a hoax.",
         },
 
         question6:{
