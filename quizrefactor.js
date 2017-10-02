@@ -56,7 +56,7 @@ $(document).ready(function() {
         question6:{
             questionImageSource:"img/eclipsequestion.png",
             questionImageTarget:"http://reflectionofmind.org/nasa-confirms-earth-will-experience-15-days-darkness-november-2017/",
-            questionCopy:"This story has been widely circulating in the wake of the eclipse on August 21st. What might indicate that this article is unreliable?",
+            questionCopy:"This story was widely circulated in the wake of the eclipse on August 21, 2017. What might indicate that this article is unreliable?",
             radioButtonContent:'<input name="question" type="radio" value="incorrect"><strong>A</strong>&nbsp;The grammar and spelling errors<br><input name="question" type="radio" value="incorrect"><strong>B</strong>&nbsp;The questionable source listed<br><input name="question" type="radio" value="incorrect"><strong>C</strong>&nbsp;The shaky explanation of the science<br><input name="question" type="radio" value="correct"><strong>D</strong>&nbsp;All of the above',
             resultGifCorrectSrc:"img/right2.gif",
             resultGifIncorrectSrc:"img/wrong2.gif",
