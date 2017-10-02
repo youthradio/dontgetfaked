@@ -66,8 +66,8 @@ $(document).ready(function() {
         question7:{  
             questionImageSource:"img/rosaparksquestion.png",
             questionImageTarget: "http://forfreedomworld.com/2017/08/20/breaking-rosa-parks-daughter-praises-trumps-response-to-charlottesville/",
-            questionCopy:"Someone shares this blog post on your social media feed. What's the best way to figure out whether or you should trust this story?",
-            radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;See if you agree with the author's opinion <br><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;Research the facts to verify the author's claims<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;Ask your friends if they think it's true<br><input name='question' type='radio' value='correct'><strong>D</strong>&nbsp;All of the above",
+            questionCopy:"Someone shares this post on your social media feed. What’s the best way to figure out whether you should trust this story?",
+            radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;See if you agree with the author's opinion <br><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;Research the facts to verify the author's claims<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;Ask your friends if they think it's true<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;Check who else in your feeds has shared it",
             resultGifCorrectSrc:"img/right3.gif",
             resultGifIncorrectSrc:"img/wrong4.gif",
             postQuestionCopy:"All three of these choices are useful ways to process the things you read and hear. But if you don't know whether the cold hard facts behind a story are solid, you shouldn't trust that it's true. In this case, a simple Google serach would reveal that several news websites have already debunked this article thanks to a small factual inconsistency: Rosa Parks never had any children.",
