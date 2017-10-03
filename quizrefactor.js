@@ -20,7 +20,7 @@ $(document).ready(function() {
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;Everything you read about Hillary Clinton in the media is false.<br><input name='question' type='radio' value='incorrect'><strong>B</strong>&nbsp;In the picture used, Hillary looks totally healthy.<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;The article only includes an excerpt from the official report from Clinton's doctor.<br><input name='question' type='radio' value='correct'><strong>D</strong>&nbsp;Without evidence, the author hints that Clinton has a super-serious degenerative disease.",
             resultGifCorrectSrc:"img/right2.gif",
             resultGifIncorrectSrc: "img/wrong2.gif",
-            postQuestionCopy:"There are lots of issues with this article, but the biggest one is the author's use of alarming, speculative claims. Let's say my friend has a pimple, but I tell the whole school she has herpes, and she doesn't get a date to prom. That's like this article, except what was at stake is who leads America. ",
+            postQuestionCopy:"There are lots of issues with this article, but the biggest one is the author's use of alarming, speculative claims. Let's say my friend has a pimple, but I tell the whole school she has herpes, and she doesn't get a date to prom. That's like this article, except what was at stake was who leads America.",
         },
 
         question3:{
@@ -50,7 +50,7 @@ $(document).ready(function() {
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;It's true because there are screenshots that corroborate the claims made in the article.<br><input name='question' type='radio' value='incorrect'><strong>B</strong>&nbsp;It's true because the story sounds plausible and doesn't contradict any known facts.<br><input name='question' type='radio' value='correct'><strong>C</strong>&nbsp;It's false because the proof cited in the article is not conclusive.<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;It's false because the tone of the article is biased.",
             resultGifCorrectSrc:"img/right1.gif",
             resultGifIncorrectSrc:"img/wrong1.gif",
-            postQuestionCopy:"There’s nothing that connects the Craigslist ad referenced in the article to the Charlottesville protests. While it’s not 100% impossible that this claim is true, the screenshots are not proof of a hoax.",
+            postQuestionCopy:"There's nothing that connects the Craigslist ad referenced in the article to the Charlottesville protests. While it's not 100% impossible that this claim is true, the screenshots are not proof of a hoax.",
         },
 
         question6:{
@@ -66,7 +66,7 @@ $(document).ready(function() {
         question7:{  
             questionImageSource:"img/rosaparksquestion.png",
             questionImageTarget: "http://forfreedomworld.com/2017/08/20/breaking-rosa-parks-daughter-praises-trumps-response-to-charlottesville/",
-            questionCopy:"Someone shares this post on your social media feed. What’s the best way to figure out whether you should trust this story?",
+            questionCopy:"Someone shares this post on your social media feed. What's the best way to figure out whether you should trust this story?",
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;See if you agree with the author's opinion <br><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;Research the facts to verify the author's claims<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;Ask your friends if they think it's true<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;Check who else in your feeds has shared it",
             resultGifCorrectSrc:"img/right3.gif",
             resultGifIncorrectSrc:"img/wrong4.gif",
@@ -77,7 +77,7 @@ $(document).ready(function() {
     var scoreResult= {
         score0:{
             scoreImage:"img/alternativefacts.png",
-            scoreText: "OK, friend, you need to get your Google on. Look up your links, find some new news sources and think before you hit that share button!",
+            scoreText: "OK, friend, you need to check yourself and check your sources. Look up your links, find some new news outlets and think before you hit that share button!",
         },
         score1:{
             scoreImage:"img/rumorhasit.png",
@@ -85,7 +85,7 @@ $(document).ready(function() {
         },
         score2:{
             scoreImage:"img/truthiness.png",
-            scoreText:"Not too bad -- your fake news sense is about as accurate as a coin flip. If you want to better your odds, consider giving those links a second look before you share. Otherwise, you'll get caught up in the online rumor mill.",
+            scoreText:"Not too bad -- but if you want to better your odds, consider giving those links a second look before you share. Otherwise, you'll get caught up in the online rumor mill.",
         },
         score3:{
             scoreImage:"img/legitnews.png",
