@@ -30,13 +30,13 @@ $(document).ready(function() {
             radioButtonContent:'<input name="question" type="radio" value="incorrect"><strong>A</strong>&nbsp;The article cites technical scientific terms a person wouldn\'t know unless they\'d done their research.<br><input name="question" type="radio" value="incorrect"><strong>B</strong>&nbsp;The publication is non-profit and therefore does not pander to special interests.<br><input name="question" type="radio" value="incorrect"><strong>C</strong>&nbsp;The author is well known.<br><input name="question" type="radio" value="correct"><strong>D</strong>&nbsp;The reporter uses an unbiased voice, cites multiple named sources, and includes reliable hyperlinks.',
             resultGifCorrectSrc:"img/right3.gif",
             resultGifIncorrectSrc:"img/wrong3.gif",
-            postQuestionCopy:"Even well-known, tech-savvy reporters at non-profits can get the story wrong. But you know you can trust this one because the sources are right there, offered in an unbiased way. Now that you know you didn't get faked, go ahead and share!",
+            postQuestionCopy:"Even well-known, tech-savvy reporters at non-profits can get the story wrong. But you know you can trust this one because the sources are right there, offered in an unbiased way.",
         },
 
         question4:{  
             questionImageSource:"img/NYtimes_draft.png",
             questionImageTarget: "https://www.nytimes.com/2016/06/15/us/politics/congress-women-military-draft.html",
-            questionCopy:"Freaked out that her daughter will have to register for the draft, your aunt shares this New York Times story the week Trump takes office. What's wrong with that?",
+            questionCopy:"Freaked out that her daughter will have to register for the draft, your aunt shares this <em>New York Times</em> story the week Trump takes office. What's wrong with that?",
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;There's no way the US Senate would ever force females to register for the draft.<br><!-- this copy is wrong --><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;It's an accurate but outdated story about part of a bill that didn't pass.<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;You should only trust coverage of the military written by active duty personnel.<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;The photo comes from 'Getty Images' and not the New York Times.",
             resultGifCorrectSrc:"img/right4.gif",
             resultGifIncorrectSrc:"img/wrong4.gif",
