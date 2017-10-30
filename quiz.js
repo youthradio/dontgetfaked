@@ -6,7 +6,7 @@ $(document).ready(function() {
         question1:{
             questionImageSource:"img/trumpexample.png",
             questionImageTarget:"http://www.cnn.com/2016/11/10/politics/trump-quote-facebook-trnd/index.html",  
-            questionCopy:"This graphic went viral on social media but was debunked. What should make you doubt it?",
+            questionCopy:"1. This graphic went viral on social media but was debunked. What should make you doubt it?",
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;The font looks too formal<br><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;No link to an original post<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;The date<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;The cheesy photo",
             resultGifCorrectSrc:"img/right1.gif",
             resultGifIncorrectSrc:"img/wrong1.gif",
@@ -16,7 +16,7 @@ $(document).ready(function() {
             questionImageSource:"img/Hillary_Breitbart.png",
             // questionImageTarget:,
             questionImageTarget:"http://www.breitbart.com/big-government/2016/09/15/doctors-see-inconsistencies-hillary-clintons-bacterial-pneumonia-diagnosis/",
-            questionCopy:"This article questions whether Hillary Clinton really had pneumonia when she ran for president. What makes you think twice about this reporting?",
+            questionCopy:"2. This article questions whether Hillary Clinton really had pneumonia when she ran for president. What makes you think twice about this reporting?",
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;The source, Breitbart, is a far-right media organization with a track record of targeting Clinton.<br><input name='question' type='radio' value='incorrect'><strong>B</strong>&nbsp;In the picture used, Hillary looks totally healthy.<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;Without evidence, the author hints that Clinton has a super-serious degenerative disease instead.<br><input name='question' type='radio' value='correct'><strong>D</strong>&nbsp;A and C",
             resultGifCorrectSrc:"img/right2.gif",
             resultGifIncorrectSrc: "img/wrong2.gif",
@@ -26,7 +26,7 @@ $(document).ready(function() {
         question3:{
             questionImageSource:"img/Propublica_news.png",
             questionImageTarget:"https://www.propublica.org/article/common-roadside-drug-test-routinely-produces-false-positives",
-            questionCopy:"This article says cops send people to jail on the basis of a drug test known for false positives. Why trust this story?",
+            questionCopy:"3. This article says cops send people to jail on the basis of a drug test known for false positives. Why trust this story?",
             radioButtonContent:'<input name="question" type="radio" value="incorrect"><strong>A</strong>&nbsp;The article cites technical scientific terms a person wouldn\'t know unless they\'d done their research.<br><input name="question" type="radio" value="incorrect"><strong>B</strong>&nbsp;The publication is non-profit and therefore does not pander to special interests.<br><input name="question" type="radio" value="incorrect"><strong>C</strong>&nbsp;The author is well known.<br><input name="question" type="radio" value="correct"><strong>D</strong>&nbsp;The reporter uses an unbiased voice, cites multiple named sources, and includes reliable hyperlinks.',
             resultGifCorrectSrc:"img/right3.gif",
             resultGifIncorrectSrc:"img/wrong3.gif",
@@ -36,7 +36,7 @@ $(document).ready(function() {
         question4:{  
             questionImageSource:"img/NYtimes_draft.png",
             questionImageTarget: "https://www.nytimes.com/2016/06/15/us/politics/congress-women-military-draft.html",
-            questionCopy:"Freaked out that her daughter will have to register for the draft, your aunt shares this New York Times story the week Trump takes office. What's wrong with that?",
+            questionCopy:"4. Freaked out that her daughter will have to register for the draft, your aunt shares this New York Times story the week Trump takes office. What's wrong with that?",
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;There's no way the US Senate would ever force females to register for the draft.<br><!-- this copy is wrong --><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;It's an accurate but outdated story about part of a bill that didn't pass.<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;You should only trust coverage of the military written by active duty personnel.<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;The photo comes from 'Getty Images' and not the New York Times.",
             resultGifCorrectSrc:"img/right4.gif",
             resultGifIncorrectSrc:"img/wrong4.gif",
@@ -46,7 +46,7 @@ $(document).ready(function() {
         question5:{
             questionImageSource:"img/Charlottesvillequestion.png",
             questionImageTarget:"http://newsuptoday.com/bombshell-internet-sleuths-just-found-smoking-gun-dems-planning-violence-charlottesville/",
-            questionCopy:"This article claims that there's proof that Democrats hired actors to play white supremacists in order to stage the protests in Charlottesville. How can you tell if this story is true or false?",
+            questionCopy:"5. This article claims that there's proof that Democrats hired actors to play white supremacists in order to stage the protests in Charlottesville. How can you tell if this story is true or false?",
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;It's true because there are screenshots that corroborate the claims made in the article.<br><input name='question' type='radio' value='incorrect'><strong>B</strong>&nbsp;It's true because the story sounds plausible and doesn't contradict any known facts.<br><input name='question' type='radio' value='correct'><strong>C</strong>&nbsp;It's false because the proof cited in the article is not conclusive.<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;It's false because the tone of the article is biased.",
             resultGifCorrectSrc:"img/right1.gif",
             resultGifIncorrectSrc:"img/wrong1.gif",
@@ -56,7 +56,7 @@ $(document).ready(function() {
         question6:{
             questionImageSource:"img/eclipsequestion.png",
             questionImageTarget:"http://reflectionofmind.org/nasa-confirms-earth-will-experience-15-days-darkness-november-2017/",
-            questionCopy:"This story has been widely circulating in the wake of the eclipse on August 21st. What might indicate that this article is unreliable?",
+            questionCopy:"6. This story has been widely circulating in the wake of the eclipse on August 21st. What might indicate that this article is unreliable?",
             radioButtonContent:'<input name="question" type="radio" value="incorrect"><strong>A</strong>&nbsp;The grammar and spelling errors<br><input name="question" type="radio" value="incorrect"><strong>B</strong>&nbsp;The questionable source listed<br><input name="question" type="radio" value="incorrect"><strong>C</strong>&nbsp;The shaky explanation of the science<br><input name="question" type="radio" value="correct"><strong>D</strong>&nbsp;All of the above',
             resultGifCorrectSrc:"img/right2.gif",
             resultGifIncorrectSrc:"img/wrong2.gif",
@@ -66,7 +66,7 @@ $(document).ready(function() {
         question7:{  
             questionImageSource:"img/rosaparksquestion.png",
             questionImageTarget: "http://forfreedomworld.com/2017/08/20/breaking-rosa-parks-daughter-praises-trumps-response-to-charlottesville/",
-            questionCopy:"Someone shares this blog post on your social media feed. What's the best way to figure out whether or you should trust this story?",
+            questionCopy:"7. Someone shares this blog post on your social media feed. What's the best way to figure out whether or you should trust this story?",
             radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;See if you agree with the author's opinion <br><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;Research the facts to verify the author's claims<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;Ask your friends if they think it's true<br><input name='question' type='radio' value='correct'><strong>D</strong>&nbsp;All of the above",
             resultGifCorrectSrc:"img/right3.gif",
             resultGifIncorrectSrc:"img/wrong4.gif",
