@@ -1,4 +1,5 @@
 $(document).ready(function() { 
+
     var score = 0;
     var count = 0;
     var answer 
@@ -30,14 +31,14 @@ $(document).ready(function() {
             radioButtonContent:'<input name="question" type="radio" value="incorrect"><strong>A</strong>&nbsp;The article cites technical scientific terms a person wouldn\'t know unless they\'d done their research.<br><input name="question" type="radio" value="incorrect"><strong>B</strong>&nbsp;The publication is non-profit and therefore does not pander to special interests.<br><input name="question" type="radio" value="incorrect"><strong>C</strong>&nbsp;The author is well known.<br><input name="question" type="radio" value="correct"><strong>D</strong>&nbsp;The reporter uses an unbiased voice, cites multiple named sources, and includes reliable hyperlinks.',
             resultGifCorrectSrc:"img/right3.gif",
             resultGifIncorrectSrc:"img/wrong3.gif",
-            postQuestionCopy:"Even well-known, tech-savvy reporters at non-profits can get the story wrong. But you know you can trust this one because the sources are right there, offered in an unbiased way.",
+            postQuestionCopy:"Even well-known, tech-savvy reporters at nonprofits can get the story wrong. But you know you can trust this one because the sources are right there, offered in an unbiased way.",
         },
 
         question4:{  
             questionImageSource:"img/NYtimes_draft.png",
             questionImageTarget: "https://www.nytimes.com/2016/06/15/us/politics/congress-women-military-draft.html",
             questionCopy:"4. Freaked out that her daughter will have to register for the draft, your aunt shares this <em>New York Times</em> story the week Trump takes office. What's wrong with that?",
-            radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;There's no way the US Senate would ever force females to register for the draft.<br><!-- this copy is wrong --><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;It's an accurate but outdated story about part of a bill that didn't pass.<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;You should only trust coverage of the military written by active duty personnel.<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;The photo comes from 'Getty Images' and not the New York Times.",
+            radioButtonContent:"<input name='question' type='radio' value='incorrect'><strong>A</strong>&nbsp;There's no way the U.S. Senate would ever force females to register for the draft.<br><!-- this copy is wrong --><input name='question' type='radio' value='correct'><strong>B</strong>&nbsp;It's an accurate but outdated story about part of a bill that didn't pass.<br><input name='question' type='radio' value='incorrect'><strong>C</strong>&nbsp;You should only trust coverage of the military written by active duty personnel.<br><input name='question' type='radio' value='incorrect'><strong>D</strong>&nbsp;The photo comes from 'Getty Images' and not the <em>New York Times</em>.",
             resultGifCorrectSrc:"img/right4.gif",
             resultGifIncorrectSrc:"img/wrong4.gif",
             postQuestionCopy:"This story was perfectly accurate--at the time it was published. But it went viral 10 months later, when people started sharing it like crazy long after the provision was killed. Timing is everything, so check your dates!",
@@ -60,7 +61,7 @@ $(document).ready(function() {
             radioButtonContent:'<input name="question" type="radio" value="incorrect"><strong>A</strong>&nbsp;The grammar and spelling errors<br><input name="question" type="radio" value="incorrect"><strong>B</strong>&nbsp;The questionable source listed<br><input name="question" type="radio" value="incorrect"><strong>C</strong>&nbsp;The shaky explanation of the science<br><input name="question" type="radio" value="correct"><strong>D</strong>&nbsp;All of the above',
             resultGifCorrectSrc:"img/right2.gif",
             resultGifIncorrectSrc:"img/wrong2.gif",
-            postQuestionCopy:"There's a lot of questionable things going on here. This writing was clearly not held to high editorial standards based on the spelling, grammar, and punctuation errors. The breakdown of the science behind the phenomenon is confusing and inaccurate. And the source is simply an exact copy of this same article on another website, which uses this version of the article as its source. So yes-- many signs point to the fact this story is completely made up.",
+            postQuestionCopy:"Many signs suggest this story is whack. The spelling, grammar, and punctuation are off. The science is confusing and inaccurate. And the source is an exact copy of this same article on another website, which uses this version of the article as its source.",
         },
 
         question7:{  
@@ -208,6 +209,16 @@ $(document).ready(function() {
             alert("Please make a selection")
         }
     });
+
+    $("#yrFacts").click(function() {
+        window.open("https://youthradio.org/teach-youth-radio/lesson-plan-introduction-to-fact-checking-for-journalists/","_blank")
+    })
+
+    $("#yrNews").click(function() {
+        window.open("https://youthradio.org/newsletter/","_blank")
+    })
+
+
     // shows with question result  
     $("#nextButton").click(function(){
         $("#resultGif").removeAttr('src');
@@ -286,6 +297,7 @@ $(document).ready(function() {
  
     // this needs to hide the make me smarter button 
     // back to quiz in v2
+
     $("#backtoquiz").click(function(){
         score = 0;
         i=0;
